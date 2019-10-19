@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* 起始样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "微软雅黑";
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 12px;
+  height: 100%;
+  line-height: 22px;
+  width: 100%;
+  overflow-x: hidden;
+}
+ul,
+ul li,
+ol li,
+tr td,
+dl,
+dd {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+  height: 0px;
+  line-height: 0px;
+  font-size: 0px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*a:hover{ text-decoration:underline;}*/
+img {
+  vertical-align: middle;
+  border: none;
+}
+.imgs {
+  vertical-align: top;
+}
+.lf {
+  float: left;
+}
+.rg {
+  float: right;
+}
+html {
+  overflow-x: hidden;
+}
+.text,
+textarea,
+select {
+  outline: none;
+  font-family: 微软雅黑;
+  color: #666;
+  font-size: 12px;
+  width: 100%;
+}
+select {
+  cursor: pointer;
+}
+.ul_lf li,
+.ul_js li {
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+@font-face {
+  font-family: Fontsstyle;
+  src: url("../fonts/HelveticaNeueLTPro-Bd.ttf"),
+    url("../fonts/HelveticaNeueLTPro-Bd.eot"),
+    url("../fonts/HelveticaNeueLTPro-Bd.svg"),
+    url("../fonts/HelveticaNeueLTPro-Bd.woff");
+}
+
+/* 公用样式 */
+.box {
+  margin: 0 auto;
+  width: 1200px;
+}
